@@ -1,4 +1,5 @@
 import React, {useState, useContext, useEffect} from 'react'
+
 export const store = {
     state: {
         user: {name: 'steven', age: 18}
@@ -44,5 +45,4 @@ export const connect = (Component) => {
         return <Component {...props} dispatch={dispatch} state={state}/>
     }
 }
-
 export const appContext = React.createContext(null)

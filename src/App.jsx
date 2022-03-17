@@ -1,7 +1,6 @@
 import React from 'react'
 import {appContext, store, connect} from './redux.jsx'
 
-
 export const App = () => {
   return (
     <appContext.Provider value={store}>
